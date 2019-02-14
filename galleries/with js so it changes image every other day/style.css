@@ -1,0 +1,34 @@
+div.gallery {
+  margin: 5px;
+
+  float: left;
+  width: 188px;
+}
+/*
+  
+  div.gallery:hover {
+    opacity: 0.5;
+  }
+  */
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 850px) {
+  div.gallery {
+    margin: 5px;
+
+    float: left;
+    width: 117.5px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  div.gallery {
+    margin: 5px;
+
+    float: left;
+    width: 150px;
+  }
+}

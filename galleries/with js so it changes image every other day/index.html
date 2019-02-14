@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div class="gallery">
+      <!--  <a id="link1" target="_blank" href="200 x200 VIP 1.jpg">  </a> -->
+      <img
+        id="image1"
+        src="200 x200 VIP 1.jpg"
+        alt="Northern Lights"
+        width="200"
+        height="200"
+      />
+    </div>
+
+    <div class="gallery">
+      <!--  <a id="link2" target="_blank" href="200 x200 VIP 1.jpg">   </a> -->
+      <img
+        id="image2"
+        src="200 x200 VIP 1.jpg"
+        alt="Mountains"
+        width="200"
+        height="200"
+      />
+    </div>
+
+    <div class="gallery">
+      <!-- <a id="link3" target="_blank" href="/200 x200 VIP 1.jpg">  </a> -->
+      <img
+        id="image3"
+        src="200-x200-VIP-1.jpg"
+        alt="Northern Lights"
+        width="200"
+        height="200"
+      />
+    </div>
+
+    <div class="gallery">
+      <!--  <a id="link4" target="_blank" href="200 x200 VIP 1.jpg">   </a>-->
+      <img
+        id="image4"
+        src="200 x200 VIP 1.jpg"
+        alt="Mountains"
+        width="200"
+        height="200"
+      />
+    </div>
+    <script>
+      "use strict";
+
+      var d = new Date();
+      var n = d.getDay();
+
+      console.log("am a alive !!");
+
+      init();
+
+      function init() {
+        if (n == 2) {
+          document.querySelector("#image1").src =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-3-0.3.jpg";
+          document.querySelector("#image2").src =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-1.jpg";
+          document.querySelector("#image3").src =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-2.jpg";
+          document.querySelector("#image4").src =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-4.jpg";
+          /*   document.querySelector("#link1").href =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-3-0.3.jpg";
+          document.querySelector("#link2").href =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-1.jpg";
+          document.querySelector("#link3").href =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-2.jpg";
+          document.querySelector("#link4").href =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-4.jpg"; */
+        } else if (n == 1) {
+          document.querySelector("#image1").src =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-3-0.3.jpg";
+          document.querySelector("#image2").src =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-1.jpg";
+          document.querySelector("#image3").src =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-2.jpg";
+          document.querySelector("#image4").src =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-4.jpg";
+          /*  document.querySelector("#link1").href =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-3-0.3.jpg";
+          document.querySelector("#link2").href =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-1.jpg";
+          document.querySelector("#link3").href =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-2.jpg";
+          document.querySelector("#link4").href =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-4.jpg"; */
+        } else if (n == 3) {
+          document.querySelector("#image1").src =
+            "http://baastrup.com/wp-content/uploads/1.jpg";
+          document.querySelector("#image2").src =
+            "http://baastrup.com/wp-content/uploads/2.jpg";
+          document.querySelector("#image3").src =
+            "http://baastrup.com/wp-content/uploads/3.jpg";
+          document.querySelector("#image4").src =
+            "http://baastrup.com/wp-content/uploads/4.jpg";
+        } else if (n == 4) {
+          document.querySelector("#image1").src =
+            "http://baastrup.com/wp-content/uploads/4.jpg";
+          document.querySelector("#image2").src =
+            "http://baastrup.com/wp-content/uploads/2.jpg";
+          document.querySelector("#image3").src =
+            "http://baastrup.com/wp-content/uploads/3.jpg";
+          document.querySelector("#image4").src =
+            "http://baastrup.com/wp-content/uploads/4.jpg";
+        } else if (n == 5) {
+          document.querySelector("#image1").src =
+            "http://baastrup.com/wp-content/uploads/5.jpg";
+          document.querySelector("#image2").src =
+            "http://baastrup.com/wp-content/uploads/6.jpg";
+          document.querySelector("#image3").src =
+            "http://baastrup.com/wp-content/uploads/7.jpg";
+          document.querySelector("#image4").src =
+            "http://baastrup.com/wp-content/uploads/8.jpg";
+        } else if (n == 6) {
+          document.querySelector("#image1").src =
+            "http://baastrup.com/wp-content/uploads/5.jpg";
+          document.querySelector("#image2").src =
+            "http://baastrup.com/wp-content/uploads/6.jpg";
+          document.querySelector("#image3").src =
+            "http://baastrup.com/wp-content/uploads/7.jpg";
+          document.querySelector("#image4").src =
+            "http://baastrup.com/wp-content/uploads/8.jpg";
+        } else if (n == 0) {
+          document.querySelector("#image1").src =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-3-0.3.jpg";
+          document.querySelector("#image2").src =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-1.jpg";
+          document.querySelector("#image3").src =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-2.jpg";
+          document.querySelector("#image4").src =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-4.jpg";
+        } else {
+          document.querySelector("#image1").src =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-3-0.3.jpg";
+          document.querySelector("#image2").src =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-1.jpg";
+          document.querySelector("#image3").src =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-2.jpg";
+          document.querySelector("#image4").src =
+            "http://baastrup.com/wp-content/uploads/200-x200-VIP-4.jpg";
+        }
+
+        console.log(n);
+      }
+    </script>
+  </body>
+</html>
